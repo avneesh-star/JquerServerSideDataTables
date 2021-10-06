@@ -17,22 +17,20 @@ export class AppComponent implements OnInit {
   ngOnInit() {
     
       this.setCurrentUser();
-   
-    
   }
 
   setCurrentUser(){
-    const user: User = JSON.parse(localStorage.getItem('user') || '');
+    const user: User = JSON.parse(localStorage.getItem('user'));
     this.AccountService.setCurrentUser(user);
    
   }
-  getUser(){
-    this.http.get('https://localhost:5001/api/users').subscribe(Response => {
-      this.users = Response;
-    },
-      error => {
-        console.log(error);
-      }
-    );
-  }
+  // getUser(){
+  //   this.http.get('https://localhost:5001/api/users').subscribe(Response => {
+  //     this.users = Response;
+  //   },
+  //     error => {
+  //       console.log(error);
+  //     }
+  //   );
+  // }
 }

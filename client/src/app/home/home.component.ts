@@ -16,7 +16,7 @@ Response:any;
    }
 
   ngOnInit(): void {
-    this.getCountries();
+   
   }
 
   registertoggle(){
