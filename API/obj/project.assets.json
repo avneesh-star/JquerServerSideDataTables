@@ -2454,19 +2454,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dell\\.nuget\\packages\\": {}
+    "C:\\Users\\AVNEESH\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\AVNEESH\\DattingApp\\API\\API.csproj",
+      "projectUniqueName": "D:\\Development\\DattingApp\\DattingApp\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "d:\\AVNEESH\\DattingApp\\API\\API.csproj",
-      "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "d:\\AVNEESH\\DattingApp\\API\\obj\\",
+      "projectPath": "D:\\Development\\DattingApp\\DattingApp\\API\\API.csproj",
+      "packagesPath": "C:\\Users\\AVNEESH\\.nuget\\packages\\",
+      "outputPath": "D:\\Development\\DattingApp\\DattingApp\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\AVNEESH\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2549,7 +2549,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
