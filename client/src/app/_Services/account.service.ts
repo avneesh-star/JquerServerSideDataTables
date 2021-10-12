@@ -28,12 +28,11 @@ currentUser$ = this.currentUserSource.asObservable();
   }
 
   register(model:any){
+    this.logout();
     return this.http.post<User>(this.baseUrl + 'account/register', model).pipe(
-      map((response : User)=>{
-        const user = response;
-        if(user){
+      map((user: User) => {
+        if (user){
           this.setCurrentUser(user);
-          //this.currentUserSource.next(user);
         }
       })
     )
