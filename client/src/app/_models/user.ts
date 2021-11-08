@@ -4,4 +4,5 @@ export interface User
     knownAs : string ;
     token : string ;
     photoUrl:string;
+    gender:string;
 }

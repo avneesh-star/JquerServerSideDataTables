@@ -44,7 +44,8 @@ namespace API.Controllers
                 userName = user.UserName,
                 token = _tokenService.CreateToken(user),
                 KnownAs = user.KnownAs,
-                PhotoUrl = "./assets/user.png"
+                PhotoUrl = "./assets/user.png",
+                Gender = user.Gender
             };
         }
 
@@ -74,7 +75,8 @@ namespace API.Controllers
                 userName = user.UserName,
                 token = _tokenService.CreateToken(user),
                 PhotoUrl = user.Photos.FirstOrDefault(x => x.IsMain)?.ImageUrl,
-                KnownAs = user.KnownAs
+                KnownAs = user.KnownAs,
+                Gender= user.Gender
             };
         }
         private async Task<bool> isUserExist(string username)

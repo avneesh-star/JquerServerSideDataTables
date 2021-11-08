@@ -18,7 +18,7 @@ export class PhotoEditorComponent implements OnInit {
 uploader:FileUploader;
 hasBaseDropZoneOver:boolean=false;
 baseUrl=environment.apiUrl;
-user:User = {userName:"",token:"",photoUrl:"",knownAs:""};
+user:User = {userName:"",token:"",photoUrl:"",knownAs:"", gender:""};
   constructor(private accountservice:AccountService, private memberservice:MembersService) { 
     this.accountservice.currentUser$.pipe(take(1)).subscribe(user=> this.user=user);
   }
